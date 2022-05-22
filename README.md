@@ -3,6 +3,10 @@
 Launcher for Tera Online that supports patch 92 and 100.   
 Based on the official version of the launcher that works with the Taiwanese localizer.
 
+![Preview](doc/preview.png)
+
+Note: this design is available when using our tera-api.
+
 
 ## Usage in your project
 
