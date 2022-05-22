@@ -22,7 +22,7 @@ To change the URL address of launcher API, you need to use the Rusource Hacker p
 
 ### Place launcher on your host
 
-In order for the launcher to automatically update itself, you need to place the [launcher_info.ini](public/patch/launcher_info.ini) in the '/patch/launcher_update' directory on your server (you can use `public` folder of tera-api). This file specifies the version of the launcher, as well as the download address of the installer. After each update of the launcher, you need to change the version in the Inno Setup script, as well as edit the launcher executable file (change the version) using the Resource Hacker program.
+In order for the launcher to automatically update itself, you need to place the [launcher_info.ini](public/patch/launcher_info.ini) in the `/patch/launcher_update` directory on your server (you can use `public` folder of tera-api). This file specifies the version of the launcher, as well as the download address of the installer. After each update of the launcher, you need to change the version in the Inno Setup script, as well as edit the launcher executable file (change the version) using the Resource Hacker program.
 
 
 ## Support automatic game update
