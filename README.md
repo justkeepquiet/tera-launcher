@@ -10,7 +10,7 @@ Note: this design is available when using our tera-api.
 
 ## Usage in your project
 
-In order to use this launcher in your private tera server project, you need to use our version of [tera-api](https://github.com/justkeepquiet/tera-api), and also modify the executable file using the [Resource Hacker](http://www.angusj.com/resourcehacker/) program.
+In order to use this launcher in your private tera server project, you need to use our version of [tera-api](https://github.com/justkeepquiet/tera-api), and also modify the executable file using the [Resource Hacker](http://www.angusj.com/resourcehacker/) or [Resource Cracker](https://www.pelock.com/products/resource-cracker) program.
 
 The repository also includes [a script](installer) for the Inno Setup installer, which allows you to create an installer with support for automatic updates.
 
@@ -26,7 +26,7 @@ To change the URL address of launcher API, you need to use the Rusource Hacker p
 
 ### Place launcher on your host
 
-In order for the launcher to automatically update itself, you need to place the [launcher_info.ini](public/patch/launcher_info.ini) in the `patch` directory on your server (you can use `public` folder of tera-api). This file specifies the version of the launcher, as well as the download address of the installer. After each update of the launcher, you need to change the version in the Inno Setup script, as well as edit the launcher executable file (change the version) using the Resource Hacker program.
+In order for the launcher to automatically update itself, you need to place the [launcher_info.ini](public/patch/launcher_info.ini) in the `patch` directory on your server (you can use `public` folder of tera-api). This file specifies the version of the launcher, as well as the download address of thech update of the launcher, you need to change the version in the Inno Setup script, as well as edit the launcher executable file (change the version) using the Resource Hacker or [Resource Cracker](https://www.pelock.com/products/resource-cracker) installer. After each update of the launcher, you need to change the version in the Inno Setup script, as well as edit the launcher executable file (change the version) using the Resource Hacker program.
 
 
 ## Support automatic game update
